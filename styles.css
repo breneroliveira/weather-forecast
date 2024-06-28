@@ -10,7 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
     background-position: center;
     background-size: cover;
 }
@@ -61,9 +60,7 @@ body {
 }
 
 /* Corpo */
-#weather_data,
-#error-message,
-#loader {
+#weather_data {
     border-top: 1px solid #fff;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
@@ -77,42 +74,10 @@ body {
     margin-bottom: 0.6rem;
 }
 
-/* #weather_data h2 i {
-  font-size: 1rem;
-} */
-
 #weather_data span {
     margin: 0.6rem;
 }
 
-/* #temperature {
-  font-size: 4rem;
-} */
-
-/* #country {
-  height: 15px;
-} */
-
-/* #description-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0.6rem 0;
-} */
-
 #description {
-    /* text-transform: capitalize; */
     font-weight: bold;
 }
-
-/* #details-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* #details-container #umidity {
-  border-right: 1px solid #fff;
-  margin: 0.6rem;
-  padding: 0.6rem;
-} */
